@@ -1,7 +1,7 @@
-/* Full page setup */
+
 body {
   display: flex;
-  flex-direction: column;   /* Stack input over buttons */
+  flex-direction: column; 
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -10,7 +10,6 @@ body {
   margin: 0;
 }
 
-/* Display box */
 #display {
   width: 330px;
   height: 70px;
@@ -21,11 +20,10 @@ body {
   padding: 10px;
   border-radius: 10px;
   background: #fff;
-  margin-bottom: 20px; /* adds space between input and buttons */
+  margin-bottom: 20px;
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
-/* Buttons grid */
 .buttons {
   display: grid;
   grid-template-columns: repeat(4, 80px);
@@ -36,7 +34,6 @@ body {
   box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
 
-/* Buttons */
 .btn {
   background: #333;
   color: white;
@@ -52,7 +49,7 @@ body {
   background: #555;
 }
 
-/* = Button */
+
 .btn-calc {
   background: #00b894;
   color: white;
@@ -62,7 +59,6 @@ body {
   background: #009970;
 }
 
-/* 0 Button spans two columns */
 .zero {
   grid-column: span 2;
 }
